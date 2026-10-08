@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class LifeCycle : MonoBehaviour
 {
-    private int i = 33;
-    
     void Awake()
     {
         Debug.Log("Awake(): " + gameObject.name);
